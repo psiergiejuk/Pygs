@@ -1,0 +1,22 @@
+What I want to create?
+
+    Game that allow user enhance it python skill and compare speed of its code with other. 
+
+
+How it should work?
+
+    Game will be a python script that allow user to register, pull task, test its result and send result to server. 
+    User can archive it by using app command line interface, like:
+        pygs.py register test_user_01 ZZZZZZ_PASSWORD_ZZZ - This command should register the user on the server.
+        pygs.py login test_user_01 ZZZZZZ_PASSWORD_ZZZ - This command login user to its account
+        pygs.py logout - This command with logout the user 
+        pygs.py status - This will show the current status (user, level, name of the task)
+        pygs.py task - This will show current task details
+        pygs.py check my_code.py - This command will execute user code and check the result
+        pygs.py push - This command will push the user code and result to server
+        pygs.py next - This command will pull the next task from the server
+        pygs.py result - This command will show the user task and result 
+        pygs.py server - This command will show list of best user on the server
+        pygs.py server task_name - This command will show the list of best user for given task
+        
+
