@@ -15,7 +15,7 @@ import argparse
 from pygs.commands import TaskComamnd, CheckCommand, NextCommand, ResultCommand
 
 __author__ = "Paweł Siergiejuk"
-__date__ = "31/10/2019"
+__date__ = "02/11/2019"
 __version__ = "v0.0"
 __email__ = "pawelsiergiejuk@gmail.com"
 __status__ = "Development"
